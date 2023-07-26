@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSD Class</title>
+    <link rel="stylesheet" href="sty.css">
+    <link rel="icon" href="./images/u.png">
+</head>
+<body>
+    <form action="">
+        <label for="fname">First Name: </label> <br>
+        <input type="text" name="firstname" placeholder="First Name" class="inputbox" autofocus required> <br> <br>
+        <label for="lname">Last Name: </label> <br>
+        <input type="text" name="lastname" placeholder="Last Name" class="inputbox" required> <br> <br>
+        <label for="dob">Date of Birth: </label> <br>
+        <input type="date" name="dateofbirth" class="dob" required> <br> <br>
+        <label for="gender">Gender: </label> <br>
+        <input type="radio" name="gender" value="Male" required> <label for="male" style="padding-right: 10px;">Male</label>
+        <input type="radio" name="gender" value="Female" required> <label for="male">Female</label> <br> <br>
+        <label for="phno">Mobile: </label> <br>
+        <input type="tel" name="phone" placeholder="Phone number" class="inputbox" required> <br> <br>
+        <label for="address">Address: </label> <br>
+        <textarea name="address" id="" cols="30" rows="10" placeholder="your address here..." class="inputbox" required></textarea> <br> <br>
+        <label for="nationality">Nationality:</label> <br>
+        <input list="country" required>
+        <datalist id="country">
+            <option value="India"></option>
+            <option value="USA"></option>
+            <option value="Africa"></option>
+            <option value="England"></option>
+            <option value="Australia"></option>
+        </datalist> <br> <br>
+        <label for="specification">You have a ..</label> <br>
+        <input type="checkbox" value="Car" name="vehi"> <label for="v1">Car</label> <br>
+        <input type="checkbox" value="Bike" name="vehi"> <label for="v2">Bike</label> <br>
+        <input type="checkbox" value="Bicyle" name="vehi"> <label for="v3">Bicycle</label> <br> <br>
+
+        <button type="reset" style="margin-right: 60px;">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>

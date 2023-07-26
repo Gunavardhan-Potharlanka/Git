@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        form input, textarea{
+            padding: 10px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name: </label> <br>
+        <input type="text" name="name" placeholder="Your name.." autocomplete="off" required> <br>
+        <label for="pass">Enter new password: </label> <br>
+        <input type="password" placeholder="Password" name="pass" disabled> <br>
+        <label for="dob">Date of birth:</label> <br>
+        <input type="date" name="dob" required> <br>
+        <label for="file">Choose a file:</label> <br>
+        <input type="file" name="fyl"> <br>
+        <label for="gend">Gender: </label> <br>
+        <input type="radio" name="gend" required> <label for="gend">Male</label> &emsp;
+        <input type="radio" name="gend" required> <label for="gend">Female</label> <br>
+        <label for="phone">Mobile Number: </label> <br>
+        <input type="number" placeholder="mobile number" required> <br>
+        <label for="address">Address:</label> <br>
+        <textarea name="address" id="" cols="30" rows="10" placeholder="Address"></textarea> <br>
+        <label for="range">Select Range</label> <br>
+        <input type="range" name="range"> <br>
+        <label for="Vehi">Vehicles</label> <br>
+        <input type="checkbox" name="vehi"> <label for="vehi">Car</label> <br>
+        <input type="checkbox" name="vehi"> <label for="vehi">Bike</label> <br>
+        <input type="checkbox" name="vehi"> <label for="vehi">Bicycle</label> <br>
+        <button type="submit">Submit</button> &emsp; <button type="reset">Reset</button>
+        </form>
+</body>
+</html>
